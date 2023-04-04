@@ -1,1 +1,83 @@
-﻿
+﻿@{
+      Layout = null;
+}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La mia Pizzeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="~/css/site.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous" defer></script>
+</head>
+
+<body>
+    <nav class="navbar bg-light py-3">
+        <div class="container-fluid">
+            <h3>La mia Pizzeria</h3>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="my-3 text-center">Lista delle mie Pizze</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Descrizione</th>
+                    <th scope="col">Foto</th>
+                    <th scope="col">Prezzo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 20%">Marinara</td>
+                    <td>(pomodoro, origano, aglio ed olio)</td>
+                    <td><img src="~/img/pizza01.webp" class="img-size" alt="Pizza Marinara"></td>
+                    <td>4,50 €</td>
+                </tr>
+                <tr>
+                    <td style="width: 20%">Margherita</td>
+                    <td>(pomodoroe mozzarella)</td>
+                    <td><img src="~/img/pizza02.jpg" class="img-size" alt="Pizza Margherita"></td>
+                    <td>4,50 €</td>
+                </tr>
+                <tr>
+                    <td style="width: 20%">Calabrese</td>
+                    <td>(pomodoro, mozzarella e salame piccante)</td>
+                    <td><img src="~/img/pizza03.jpg" class="img-size" alt="Pizza Calabrese"></td>
+                    <td>6,50 €</td>
+                </tr>
+                <tr>
+                    <td style="width: 20%">Mortadella e pistacchi</td>
+                    <td>(pomodoro, mozzarella, mortadella e pistacchi)</td>
+                    <td>
+                        <img src="~/img/pizza04.webp" class="img-size" alt="Pizza Mortadella e pistacchi">
+                    </td>
+                    <td>7,50 €</td>
+                </tr>                
+                <tr>
+                    <td style="width: 20%">Romana</td>
+                    <td>(pomodoro, mozzarella, acciughe, capperi, olive e origano)</td>
+                    <td>
+                        <img src="~/img/pizza05.jpg" class="img-size" alt="Pizza Romana">
+                    </td>
+                    <td>6,50 €</td>
+                </tr>
+                <tr>
+                    <td style="width: 20%">Prosciutto e funghi</td>
+                    <td>(pomodoro, mozzarella, prosciutto cotto e funghi)</td>
+                    <td>
+                        <img src="~/img/pizza06.jpg" class="img-size" alt="Pizza Prosciutto e funghi">
+                    </td>
+                    <td>7,50 €</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+   
+</body>
